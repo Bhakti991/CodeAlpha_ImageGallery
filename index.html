@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Responsive Image Gallery</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h1>Image Gallery</h1>
+
+  <div class="filters">
+    <button onclick="filterImages('all')">All</button>
+    <button onclick="filterImages('nature')">Nature</button>
+    <button onclick="filterImages('city')">City</button>
+  </div>
+
+  <div class="gallery">
+    <div class="image nature"><img src="nature1.jpg" alt="Nature 1"></div>
+    <div class="image city"><img src="city1.jpg" alt="City 1"></div>
+    <div class="image nature"><img src="nature2.jpg.crdownload" alt="Nature 2"></div>
+    <div class="image city"><img src="city2.jpg" alt="City 2"></div>
+    <div class="image nature"><img src="nature3.jpg" alt="Nature 3"></div>
+    <div class="image city"><img src="city3.jpg.crdownload" alt="City 3"></div>
+    <div class="image city"><img src="city4.jpg" alt="City 4"></div>
+    <div class="image city"><img src="city5.jpg" alt="City 5"></div>
+    <div class="image nature"><img src="nature4.jpg" alt="Nature 4"></div>
+    <div class="image nature"><img src="nature5.jpg" alt="Nature 5"></div>
+    
+    
+    
+  </div>
+
+  <!-- Lightbox Modal -->
+  <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+    <img id="lightbox-img" src="" alt="Preview">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
